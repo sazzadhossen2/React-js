@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../comonents/Header'
+import BreadCrumb from '../comonents/BreadCrumb'
 
 function ContractPage() {
   return (
-    <div>ContractPage</div>
+    <>
+    {/* <Header/> */}
+     <Header/>
+
+     {/* <BreadCrumb/> */}
+     <BreadCrumb title={"Contract"}/>
+    
+    </>
   )
 }
 
